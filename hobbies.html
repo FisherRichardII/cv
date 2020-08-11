@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+<meta charset="utf-8">
+<head>
+	<title> Contact information</title>
+</head>
+<body>
+	<h2><strong>Contact information</strong>:</h2>
+	3/5, Keblat Street,<br>
+	Onikolobo,<br>
+	Abeokuta,<br>
+	Ogun State.<br>
+	07089721011,08141500763.<br>
+	adeolufisher3@gmail.com
+	<hr>
+	<strong>Would you like to suscribe to my free online classes? If yes, fill out the following form and send it to my email.</strong>
+	<br><br>
+	<h3>Personal Information</h3><br>
+	<form class="" action="mailto:adeolufisher3@gmail.com" method="post" enctype="text/plain">
+		<label for="Firstname">First name:</label>
+		<input type="text" name="Firstname" id="Firstname"><br><br>
+
+		<label for="Lastname">Last name:</label>
+		<input type="text" name="Lastname" id="Lastname"><br><br>
+
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male" value="Male">
+
+		<label for="female">Female</label>
+		<input type="radio" id="female" name="gender" value="female" checked="">
+
+		<label for="other">Other</label>
+		<input type="radio" id="other" name="gender" value="other"><br><br>
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" name="dob" id="dob"><br><br>
+
+		<label for="fcolor">Favourite colour:</label>
+		<input type="color" name="fcolor" id="fcolor"><br><br>
+
+		<label for="email">Personal email:</label>
+		<input type="email" name="email" id="email" required=""><br><br>
+
+		<label for="pswd">Password:</label>
+		<input type="password" name="pswd" id="pswd" required=""><br><br>
+
+		<label for="tel">Telephone number:</label>
+		<input type="tel" name="tel" id="tel">
+
+        <h3>Courses</h3>
+        <strong>Please check out any of the following courses you'd like to subscribe for:</strong><br><br>
+
+		<label for="iOS">iOS Development</label>
+		<input type="checkbox" name="iOS" id="iOS"><br><br>
+
+		<label for="web">Web Development</label>
+		<input type="checkbox" name="web" id="web"><br><br>
+
+		<label for="android">Android Development</label>
+		<input type="checkbox" name="android" id="android"><br><br>
+
+		<label for="laravel">Laravel</label>
+		<input type="checkbox" name="laravel" id="laravel"><br><br>
+
+		<h4>Add a picture of yourself not more than 20kb and in jpg format.</h4><br>
+
+		<label><em>Add file</em></label>
+		<input type="file" accept="image"><br><br>
+
+		<label for="essay">Drop a simple essay about you:</label><br>
+		<textarea name="essay" id="essay" rows="10" cols="30"></textarea><br><br>
+
+        <input type="reset" value="Reset">
+		<input type="submit" value="Submit">
+	</form>
+</body>
